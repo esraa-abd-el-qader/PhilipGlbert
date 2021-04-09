@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+
+}
+@font-face {
+    font-family: poppinsRegular;
+    src: url("../fonts/Poppins-Regular.ttf")
+        url("../fonts/a-jannat-lt.eot") format("embedded-opentype"),
+        url("../fonts/a-jannat-lt.woff2") format("woff2"),
+        url("../fonts/AJannatLT.woff") format("woff"),
+        url("../fonts/AJannatLT.ttf") format("truetype"),
+        url("../fonts/AJannatLT.svg") format("svg");
+}
+body{
+    font-family: poppinsRegular;
+
+   
+}
+/* general */
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+
+.navbar{
+    overflow: auto;
+}
+.navbar__logo{
+    display: inline-block;
+    padding: 10px;
+}
+.navbar__links{
+    float: right;
+    list-style: none;
+}
+.navbar__links li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.header{
+    display: table;
+    background-color: gainsboro ;
+
+}
+.header__image{
+    float: right;
+    display: table-cell;
+    width: 50%;
+
+}
+.header__image img{
+    display: block;
+}
+.header__thisisme{
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.header__thisisme h1{
+    margin-bottom: 10px;
+}

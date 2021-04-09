@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+/* general */
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+.navbar{
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+}
+.navbar__logo{
+    display: inline-block;
+    padding: 10px;
+}
+.navbar__links{
+    float: right;
+    list-style: none;
+}
+.navbar__links li{
+    display: inline-block;
+    padding: 15px;
+    font-weight: bold;
+}
+/*header*/
+.header{
+    display: table;
+    background-color: gainsboro ;
+
+}
+.header__image{
+    float: right;
+    display: table-cell;
+    width: 50%;
+
+}
+.header__image img{
+display: block;}
+.header__thisisme{
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.header__thisisme h1{
+    margin-bottom: 10px;
+}
+.header__thisisme button{
+    margin-top: 50px;
+    padding: 10px;
+}
